@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Keep your inline styles as fallback (optional) -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        nav { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a> | 
+        <a href="/about">About</a> | 
+        <a href="/contact">Contact</a>
+    </nav>
+    
+    <h1>About Me</h1>
+    <p>More detailed information about yourself goes here.</p>
+    <p>Your education, skills, and experience.</p>
+</body>
+</html>
